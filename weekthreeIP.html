@@ -10,13 +10,26 @@
   <body>
   <div class="container">
     <div class="jumbotron">
-    <h1>FAULU SCHOOL</h1>
-    <h2>COMPUTER CLUB</h2>
+    <h1><em><strong>FAULU SCHOOL</strong></em></h1>
+    <h2><strong>COMPUTER CLUB</strong></h2>
     <p>This is a quick quiz gathered by the computer club for it's club members to test your knowledge on Javascript. It will help decide whether you should move on to the next level in this course. Attempt the quiz and a score of 50% and above means you can move on to the next level while a score of below 50% means you should restudy your course work on javascript then reattempt the quiz.
+<p id="start">Click here to start the quiz</p>
     </div>
+    <div class="quiz" id="drop">
   <div class="row">
-    <div class="col-md-6">
+
       <div class="well">
+        <div class="panel panel-default">
+
+        <p><div class="form-group">
+             <label for="today">Date today:</label>
+             <input id="today" class="form-control" type="date">
+             <label for="name">Your name:</label>
+             <input id="name"  class="form-control"  type="name">
+             <label for="email">Your email:</label>
+             <input id="email" class="form-control" type="email">
+           </div>
+           </p>
       <p>1.What is the full meaning of Js?</p>
     <div class="radio">
             <label>
@@ -93,9 +106,6 @@
                   Enables a more interactive session between the user and the website
             </label>
           </div>
-          <div class="col-md-6">
-          <div class="well">
-
           <p>5. ...... tag is an extension to HTML that can enclose any number of Javascript statement.</p>
           <div class="radio">
             <label>
@@ -115,7 +125,6 @@
                    HEAD
             </label>
           </div>
-        
           <div class="form-group">
           <p>6. What is the correct Javascript syntax to write "Hello world"?</p>
           <div class="radio">
@@ -179,10 +188,11 @@
               splice
             </label>
             </div>
-          </div>
-        </div>
+            </div>
+
+
       </div>
-    </div>
+
 </div>
   </body>
 </html>

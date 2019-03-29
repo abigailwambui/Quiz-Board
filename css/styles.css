@@ -1,0 +1,33 @@
+
+.jumbotron>h1{
+  color:green;
+  font-style: oblique;
+}
+.jumbotron{
+  text-align:center;
+  margin-left:30px;
+  margin-right: 30px;
+}
+body{
+background-color: brown;
+}
+#drop{
+  display: none;
+
+}
+.well{
+  text-align: left;
+  margin-left:45px;
+  margin-right:45px;
+  opacity: 0.8;
+  background-color: green;
+}
+#start{
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+}
+.panel panel-default{
+  margin-left: 50px;
+  margin-right: 50px;
+}

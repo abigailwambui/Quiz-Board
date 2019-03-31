@@ -1,13 +1,13 @@
-Quiz-Board
+#Quiz-Board
 A website with a quiz to test one's knowledge on Javascript.
 
-By Abigail Wambui
+#By Abigail Wambui
 Learning JavaScript is impossible without setting up an application using HTML,CSS and JavaScript.
 This application provides the user to do an online quiz for them to know how good they are at Javascript.
 The application also informs the user how well they performed on the test.
 You can take a look at it and let me know any corrections to be done.
 
-BDD
+#BDD
 Here are the steps to how I did the project:
 *The program should tell the user is required to fill in their details for:
 
@@ -26,7 +26,7 @@ Date:
 
 *The program allows a user to retake the test.
 
-Setup
+#Setup
 
 To Make changes follow these steps:
 *Fork the repo
@@ -41,7 +41,7 @@ To Make changes follow these steps:
 
 *Create a pull request
 
-Technologies used:
+#Technologies used:
 *HTML
 
 *CSS

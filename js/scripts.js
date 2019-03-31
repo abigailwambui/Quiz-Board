@@ -36,8 +36,11 @@ function check(){
 
 
 var messages = ["GREAT SCORE!", "AVERAGE SCORE!", "POOR SCORE!"]
+var pictures = [
+  
+]
 
-var range;
+.var range;
 
       if (correct < 49) {
         range = 2;
@@ -53,6 +56,6 @@ var range;
 
       document.getElementById("message").innerHTML = messages [range];
       document.getElementById("number-correct").innerHTML= "You got "+ correct+ "correct";
-
+      document.getElementById("picture").src = pictures[range];.
 
 }

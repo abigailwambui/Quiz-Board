@@ -1,7 +1,7 @@
-#Quiz-Board
+QUIZ BOARD
 A website with a quiz to test one's knowledge on Javascript.
 
-#By Abigail Wambui
+By Abigail Wambui
 Learning JavaScript is impossible without setting up an application using HTML,CSS and JavaScript.
 This application provides the user to do an online quiz for them to know how good they are at Javascript.
 The application also informs the user how well they performed on the test.

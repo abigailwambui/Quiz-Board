@@ -36,11 +36,9 @@ function check(){
 
 
 var messages = ["GREAT SCORE!", "AVERAGE SCORE!", "POOR SCORE!"]
-var pictures = [
-  
-]
+var pictures = ["https://i.pinimg.com/originals/e5/f2/30/e5f23048100b59448cd1ba586368f83b.gif", "https://previews.123rf.com/images/enciktep/enciktep1601/enciktep160100121/52131891-mark-average-on-performance-evaluation.jpg", ]
 
-.var range;
+var range;
 
       if (correct < 49) {
         range = 2;

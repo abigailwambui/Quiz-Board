@@ -33,6 +33,26 @@ function check(){
       if ("#question8" == ".splice()") {
         correct +=10;
       }
-  document.getElementById("after-submit").style.visibility = "visible";
-  document.getElementById("number-correct").innerHTML= "You got "+ correct+ "correct";
+
+
+var messages = ["GREAT SCORE!", "AVERAGE SCORE!", "POOR SCORE!"]
+
+var range;
+
+      if (correct < 49) {
+        range = 2;
+      }
+      if (correct > 49 && correct < 60) {
+         range = 1;
+      }
+      if (correct > 70) {
+         range = 0;
+      }
+
+      document.getElementById("after-submit").style.visibility = "visible";
+
+      document.getElementById("message").innerHTML = messages [range];
+      document.getElementById("number-correct").innerHTML= "You got "+ correct+ "correct";
+
+
 }

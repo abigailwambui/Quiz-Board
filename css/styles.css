@@ -41,3 +41,6 @@ background-color: brown;
   background-color: green;
   align-content: center;
 }
+#after-submit {
+  display: none;
+}

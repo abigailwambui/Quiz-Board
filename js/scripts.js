@@ -36,7 +36,7 @@ function check(){
 
 
 var messages = ["GREAT SCORE!", "AVERAGE SCORE!", "POOR SCORE!"]
-var pictures = ["https://i.pinimg.com/originals/e5/f2/30/e5f23048100b59448cd1ba586368f83b.gif", "https://previews.123rf.com/images/enciktep/enciktep1601/enciktep160100121/52131891-mark-average-on-performance-evaluation.jpg", ]
+var pictures = ["https://i.pinimg.com/originals/e5/f2/30/e5f23048100b59448cd1ba586368f83b.gif", "https://previews.123rf.com/images/enciktep/enciktep1601/enciktep160100121/52131891-mark-average-on-performance-evaluation.jpg", "http://14e1z91bh54p43ou0uc82tl5-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/upAnimation.gif"]
 
 var range;
 

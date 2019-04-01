@@ -8,6 +8,7 @@
     <script src="js/2scripts.js"></script>
     <title>QUIZ BOARD</title>
   </head>
+
   <body>
   <div class="container">
     <div class="jumbotron">
@@ -32,7 +33,7 @@
         </div>
 
 
-
+  <form id= "QUESTIONS" name="questions">
   <div class="col-md-6">
 
     <label for="question1" id="question1">1. What is the full meaning of JS?<br>
@@ -88,7 +89,9 @@
     </label>
 
 
-    <input id= "button" type= "button" value= "SUBMIT" onclick= "check();">
+    <input type="button" value="SUBMIT" class="btn btn-danger" onclick= "check();"></input>
+  </form>
+
     <div id= "after-submit">
     <p id= "messages"></p>
     <p id= "number-correct"></p>

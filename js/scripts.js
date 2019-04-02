@@ -1,3 +1,4 @@
+// This is the business logi
 function check(){
   var question1= document.(questions).(question1).value;
   var question2= document.(questions).(question2).value;

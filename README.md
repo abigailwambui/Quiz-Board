@@ -1,4 +1,5 @@
-QUIZ BOARD
+##QUIZ BOARD
+
 A website with a quiz to test one's knowledge on Javascript.
 
 By Abigail Wambui
@@ -8,7 +9,7 @@ This application provides the user to do an online quiz for them to know how goo
 The application also informs the user how well they performed on the test.
 You can take a look at it and let me know any corrections to be done.
 
-BDD
+##BDD
 
 *The program should tell the user that they are required to fill in their details for:
 
@@ -27,7 +28,7 @@ Date:
 
 *The program allows a user to retake the test.
 
-Setup
+##Setup
 
 To Make changes follow these steps:
 *Fork the repo
@@ -42,7 +43,7 @@ To Make changes follow these steps:
 
 *Create a pull request
 
-Technologies used:
+##Technologies used:
 
 *HTML
 
@@ -57,14 +58,14 @@ Technologies used:
 *Markdown
 
 
-Link to the live site
+##Link to the live site
 https://abigailwambui.github.io/Quiz-Board/
 
-Contact information.
+##Contact information.
 0705923850- Abigail Wambui.
 
-License and Copyright information.
-MIT License
+##License and Copyright information.
+##MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sub-license, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

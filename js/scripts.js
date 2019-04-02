@@ -1,59 +1,61 @@
-// This is the business logi
-function check(){
-  var question1= document.(questions).(question1).value;
-  var question2= document.(questions).(question2).value;
-  var question3= document.(questions).(question3).value;
-  var question4= document.(questions).(question4).value;
-  var question5= document.(questions).(question5).value;
-  var question6= document.(questions).(question6).value;
-  var question7= document.(questions).(question7).value;
-  var question8= document.(questions).(question8).value;
+// This is the business logic
+$(document).ready(function () {
+    $("form#QUESTIONS").submit(function (event) {
+
+  var question1= $("input:radio[name=question1]:checked").val();
+  var question2= $("input:radio[name=question2]:checked").val();
+  var question3= $("input:radio[name=question3]:checked").val();
+  var question4= $("input:radio[name=question4]:checked").val();
+  var question5= $("input:radio[name=question5]:checked").val();
+  var question6= $("input:radio[name=question6]:checked").val();
+  var question7= $("input:radio[name=question7]:checked").val();
+  var question8= $("input:radio[name=question8]:checked").val();
   var correct = 0;
 
 
       if (question1 == "Javascript") {
-        correct +=10;
+        correct ++;
       }
-      if (question2 == ".toLowerCase()") {
-        correct +=10;
+      if (question2 == ".toLowerCase") {
+        correct ++;
       }
 
       if (question3 == "Console") {
-        correct +=10;
+        correct ++;
       }
       if (question4 == "Enables a more interactive session between the user and the website") {
-        correct +=10;
+        correct ++;
       }
       if (question5 == "SCRIPT") {
-        correct +=10;
+        correct ++;
       }
-      if (question6 == "document.write("Hello world")") {
-        correct +=10;
+      if (question6 == "document.write") {
+        correct ++;
       }
       if (question7== "if") {
-        correct +=10;
+        correct ++;
       }
       if (question8 == ".splice()") {
-        correct +=10;
+        correct ++;
+      }
+      var percent = correct/8*100
+       if (percent >69){
+         remark="EXELLENT!"
+       }
+       if(percent >49){
+         remark="FAIR!"
 
-  var messages = ["GREAT SCORE!", "AVERAGE SCORE!", "POOR SCORE!"]
-  var pictures = ["https://i.pinimg.com/originals/e5/f2/30/e5f23048100b59448cd1ba586368f83b.gif", "https://previews.123rf.com/images/enciktep/enciktep1601/enciktep160100121/52131891-mark-average-on-performance-evaluation.jpg", "http://14e1z91bh54p43ou0uc82tl5-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/upAnimation.gif"]
+       }
+       else {
+         remark="Reread your course work?!!"
+       };
 
-  var range;
+        document.getElementById("correct").innerHTML = "You scored " + correct +" out of 8 questions correct."
+        document .getElementById("results").innerHTML = remark;
 
-        if (correct < 49) {
-          range = 2;
-        }
-        if (correct > 49 && correct < 60) {
-           range = 1;
-        }
-        if (correct > 70) {
-           range = 0;
-        }
+        event.preventDefault();
 
-  document.getElementById("after-submit").style.visibility = "visible";
-  document.getElementById("message").innerHTML = messages [range];
-  document.getElementById("number-correct").innerHTML= "You got "+ correct+ "correct";
-  document.getElementById("picture").src = pictures[range];.
 
-  }
+    });
+
+});

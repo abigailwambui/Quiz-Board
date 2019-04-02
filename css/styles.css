@@ -41,16 +41,9 @@ background-color: brown;
   background-color: green;
   align-content: center;
 }
-#after-submit {
-  display: none;
-  background: #0088cc;
-  padding: 10px, 20px, 10px, 20px;
-  width: 400px;
-  border-radius: 20px;
-  margin-left: 30px;
-  font-size: 30px;
-}
-#picture {
-    width: 375px;
-    height: 245px;
-}
+.play{
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: black;
+  }
